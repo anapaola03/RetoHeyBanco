@@ -1,0 +1,37 @@
+/* Define los estilos para el cuerpo del documento */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Define los estilos para el encabezado de la página */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Define los estilos para el formulario */
+form {
+  margin: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+/* Define los estilos para los resultados de la predicción */
+#results {
+  margin: 20px;
+}
