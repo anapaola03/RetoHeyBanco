@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultados</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Resultados</h1>
+    <h2>Palabras clave por cluster</h2>
+    <div id="clusters">{{ clusters_html | safe }}</div>
+    <h2>Variación del Sentimiento con el Tiempo</h2>
+    <div id="sentiment">{{ sentiment_html | safe }}</div>
+    <h2>Frases más comunes</h2>
+    {{ top_phrases_html | safe }}
+</body>
+</html>
+
